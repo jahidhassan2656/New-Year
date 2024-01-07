@@ -1,0 +1,89 @@
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1600px;
+}
+
+header,
+main {}
+
+
+/* Header-section */
+.header-section {
+    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('resources/Banner\ Image.png'); */
+
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+}
+
+.header-content {
+    color: white;
+    text-align: center;
+
+    padding-top: 200px;
+
+}
+
+.header-small {
+
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-capital {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+                                    /* Discount-section */
+.discount-section {
+
+    margin-bottom: 240px;
+    text-align: center;
+}
+
+.discount-title {
+
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.discount-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.discount-all {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.immg{
+    width: 802.9px;
+   height: 500px;
+
+}
+
+                                /* Discount-section */
