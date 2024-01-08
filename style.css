@@ -1,12 +1,10 @@
 * {
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body {
-    width: 1600px;
-}
 
 header,
 main {}
@@ -14,8 +12,6 @@ main {}
 
 /* Header-section */
 .header-section {
-    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('resources/Banner\ Image.png'); */
-
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
     width: 1320px;
@@ -25,72 +21,55 @@ main {}
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-
 }
-
+.mainBody {
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-content {
     color: white;
     text-align: center;
-
     padding-top: 200px;
-
 }
-
 .header-small {
-
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 }
-
 .header-capital {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
-
-
 /* Discount-section */
 .discount-section {
-
     margin-bottom: 140px;
     text-align: center;
 }
-
 .discount-title {
-
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-
 }
-
 .discount-text {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-
 }
-
 .discount-all {
     color: #070211;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
-
 .immg {
     width: 802.9px;
     height: 500px;
-
 }
-
 /* Discount-section-End*/
-
-
 
 /*  Banner-section */
 
@@ -108,13 +87,11 @@ main {}
     justify-content: center;
     align-items: center;
 }
-
 .banner-content {
     padding-top: 10px;
     padding-left: 10px;
     width: 50%;
 }
-
 .banner-title {
     color: #FFF;
     font-size: 64px;
@@ -123,7 +100,6 @@ main {}
     letter-spacing: 7.03px;
     margin-bottom: 24px;
 }
-
 .banner-text {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
@@ -131,7 +107,6 @@ main {}
     line-height: 30px;
     margin-bottom: 48px;
 }
-
 .button a {
     color: #FFF;
     font-family: Inter;
@@ -141,7 +116,6 @@ main {}
     text-decoration: none;
     margin-left: 30px;
 }
-
 .banner-image {
     width: 319.83px;
     height: 464.662px;
@@ -178,7 +152,6 @@ main {}
     font-weight: 600;
     line-height: 53x;
 }
-
 .button-j {
     padding: 16px 32px;
     border-radius: 8px;
@@ -193,7 +166,6 @@ main {}
 }
 
 .date-section {
-
     padding-top: 130px;
 }
 
@@ -208,29 +180,22 @@ main {}
     margin: 0 auto;
     margin-bottom: 100px;
 }
-
 /* 1st div */
 .three-div {}
-
 .content {}
-
 .content-title {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
-
 }
-
 .content-head {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
-
 }
-
 .content-discription {
     width: 393px;
     color: rgba(7, 2, 17, 0.60);
@@ -238,7 +203,6 @@ main {}
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-
 }
 
 /* 2nd div */
@@ -257,7 +221,6 @@ main {}
     border-radius: 433px;
     border: 15px solid #F00;
     text-align: center;
-
 }
 
 /* 3rd div */
@@ -265,23 +228,19 @@ main {}
     width: 276px;
     margin-left: 118px;
 }
-
 .title {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
-
 }
-
 .new-year-discription {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-
     margin-bottom: 43px;
 }
 
@@ -289,7 +248,6 @@ main {}
     width: 140px;
     height: 140px;
 }
-
 /* Free secton */
 .free-section {
     background-color: #FFF;
@@ -297,33 +255,29 @@ main {}
     margin: 0 auto;
     margin-bottom: 100px;
 }
-
 .free-section-content {
     text-align: center;
 }
-
 .free-title {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-
 }
 
 .free-header {
     color: #070211;
     font-size: 72px;
     font-weight: 900;
-
+    margin-top: 16px;
+    margin-bottom: 28px;
 }
-
 .free-header span {
     color: #F00;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
-
 .free-discription {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -427,12 +381,20 @@ main {}
 
 .search-content {
     text-align: center;
+    margin-top: 20px;
+}
+
+.search-content img {
+
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .search-title {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 22px;
 }
 
 .search-discription {
@@ -442,5 +404,101 @@ main {}
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-  
+}
+
+.inputFuild {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.inputFuild input {
+
+    width: 438px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    padding-left: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+
+}
+
+.input-button {
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -4px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+/* news letter section style */
+
+/* Footer section */
+.footer-section {
+    width: 100%;
+    height: 650px;
+    background: #070211;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+.one-section {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 120px 140px;
+}
+.left-one {
+    width: 374px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.right-one{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.call {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -6px;
+}
+.callnum {
+    margin-bottom: 10px;
+   
+}
+.web {
+    margin-bottom: -6px;
+}
+/* icon-section */
+.icon-section {
+    text-align: center;
+}
+.icon {
+    margin-right: 24px;
+}
+/* tow section */
+.tow-section {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+.left-one-bottom {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.right-one-bottom {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
